@@ -1,0 +1,19 @@
+let nombre = 'Mishelis'
+let apellido = 'Martinez'
+let is = 'Estudiante'
+console.log(is + (" ") + nombre + (" ") + apellido);
+
+let mayus = 'EstudianteMayus';
+let minus = 'EstudianteMinus';
+console.log(mayus.toLocaleUpperCase());
+console.log(minus.toLocaleLowerCase());
+
+let es = 'Estudiante  '
+console.log(es.length);
+
+console.log(nombre[0]);
+console.log(apellido[7]);
+
+console.log(es.trim().length);
+
+console.log(es.includes('Estudiante'));
